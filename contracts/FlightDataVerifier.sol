@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MIT
+/* // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.28;
 
 import {IWeb2Json} from "@flarenetwork/flare-periphery-contracts/coston2/IWeb2Json.sol";
@@ -72,4 +72,4 @@ contract FlightDataVerifier {
     ) private view returns (bool) {
         return ContractRegistry.getFdcVerification().verifyJsonApi(_proof);
     }
-} 
+}  */
